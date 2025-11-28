@@ -13,8 +13,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $pro=Project::all();
-         $service=Service::all();
+        $pro=Project::where('is_published',true)->get();
+         $service=Service::where('is_active',true)->get();
         /* dd($pro, $service); */
          return view('welcome', compact('pro','service'));
     }
