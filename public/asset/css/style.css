@@ -121,8 +121,8 @@ section{
 }
 .card{
     background-color: #fff;
-    width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%) ;
+    width: 20.25em;
+    box-shadow: 0 5px 25px rgba(23, 22, 22, 0.15) ;
     border-radius: 10px;
     padding: 25px;
     margin:15px ;
@@ -135,7 +135,7 @@ section{
 }
 .icon{
     color: #1e0ce1;
-    font-size: 8em;
+    font-size: 4em;
     text-align: center;
 }
 .info{
@@ -148,12 +148,12 @@ section{
     margin: 10px;
 }
 /*****************/
-/*
+    /*
 
 
 
 
-*/
+    */
 .projects{
     background-color: 000016;
 }
